@@ -2,9 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows:1fr 1fr 1fr;
-  ;
-  border:100% solid red;
+  border-right: inset;
+  border:1px solid red;
   padding :10px;
   margin:20px
 }
-

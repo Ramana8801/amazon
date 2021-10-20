@@ -42,7 +42,7 @@ class Directory extends React.Component{
                 {
                     name:"electronics",
                     id:5,
-                    linkUrl:"/electronics",image:<img src="https://tse1.mm.bing.net/th?id=OIP.N070umBH7sv2ovULu9DajQHaFN&pid=Api&P=0&w=262&h=185" width="300" height="300"/>
+                    linkUrl:"/electronics",image:<img src="https://www.chooseyourmobile.com/wp-content/uploads/2020/11/VIVO-V20-SE-Colors-1280x853.jpg" width="200" height="200"/>
 
                 },
                 {
@@ -61,14 +61,14 @@ class Directory extends React.Component{
                 {
                     <Container className="cols">
                     <Row className="col">
-                      <Col>{this.state.categories[0].image} dairy</Col>
-                      <Col>{this.state.categories[1].image} veggies</Col>
-                      <Col>{this.state.categories[2].image} fruits</Col>
+                      <Col>{this.state.categories[0].image} <h5>Dairy</h5></Col>
+                      <Col>{this.state.categories[1].image} <h5>Veggies</h5></Col>
+                      <Col>{this.state.categories[2].image}<h5> Fruits</h5></Col>
                       <br></br>
                    <Row>
-                      <Col>{this.state.categories[3].image}chocolate</Col>
-                      <Col>{this.state.categories[4].image}flowers</Col>
-                      <Col>{this.state.categories[5].image}photo</Col>
+                      <Col>{this.state.categories[3].image}<h5>Chocolate</h5></Col>
+                      <Col>{this.state.categories[4].image} <h6>Electronics</h6></Col>
+                      <Col>{this.state.categories[5].image}<h6>Garments</h6></Col>
                       </Row>
                     </Row>
                     
